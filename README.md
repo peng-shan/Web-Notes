@@ -48,10 +48,3 @@ python3 manage.py runserver 0.0.0.0:8000
 
 #
 
-### App Preview :
-
-<div align="center">
-<img width="50%" src="https://www.linkpicture.com/q/Notes.png"/>
-</div>
-
-#
