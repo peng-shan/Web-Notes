@@ -1,20 +1,21 @@
 <div align="center">
-<img width="50%" src="http://i3.ytimg.com/vi/tYKRAXIio28/maxresdefault.jpg"/>
 
-# Django & React Notes App
+# WebNotes App
 </div>
+
+![Logo](frontend/public/NoteIt-2.jpg)
 
 ### Cloning the repository
 
 --> Clone the repository using the command below :
 ```bash
-git clone https://github.com/divanov11/Django-React-NotesApp.git
-
+git clone https://github.com/peng-shan/Web-Notes.git
 ```
 
 --> Move into the directory where we have the project files : 
 ```bash
-cd Django-React-NotesApp
+cd Web-Notes
+```
 
 ```
 
@@ -40,7 +41,7 @@ source env/bin/activate
 
 --> To run the Notes App, we use :
 ```bash
-python manage.py runserver
+python3 manage.py runserver 0.0.0.0:8000
 ```
 
 > ⚠ Then, the development server will be started at http://127.0.0.1:8000/
