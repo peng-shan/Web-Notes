@@ -3,7 +3,7 @@
 
 
 :root {
-  --color-main: #f68657;
+  --color-main: #5faacf;
   --color-text: #383a3f;
   --color-dark: #1f2124;
   --color-gray: #677;
@@ -15,7 +15,7 @@
 }
 
 .dark {
-  --color-main: #f68657;
+  --color-main: #5faacf;
   --color-text: #d6d1d1;
   --color-dark: #f5f6f7;
   --color-gray: #999;
@@ -26,7 +26,7 @@
 }
 
 .light {
-  --color-main: #f68657;
+  --color-main: #5faacf;
   --color-text: #383a3f;
   --color-dark: #1f2124;
   --color-gray: #677;
@@ -92,6 +92,11 @@ a {
   justify-content: space-between;
   background-color: var(--color-lighter);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.app-header img {
+  width: 120px;
+  height: 50px;
 }
 
 .app-header h1 {
@@ -291,7 +296,7 @@ a {
   padding: 0.5rem 1rem;
   border-radius: 5px;
   border: none;
-  background-color: #f68657;
+  background-color: #5faacf;
   color: black;
   font-size: 1rem;
   cursor: pointer;
@@ -299,11 +304,11 @@ a {
 }
 
 .btn:hover {
-  background-color: #f68657;
+  background-color: #5faacf;
 }
 
 .btn:active {
-  background-color: #f68657;
+  background-color: #5faacf;
 }
 
 
@@ -311,7 +316,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: rgb(214, 122, 127);
+  color: rgb(140, 180, 174);
   padding: 10px;
 }
 
@@ -344,7 +349,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: rgb(131, 214, 122);
+  color: rgb(122, 214, 171);
   padding: 10px;
 }
 

@@ -12,7 +12,7 @@ import NotePage from './pages/NotePage'
 import LoginPage from "./pages/LoginPage";
 
 function App() {
-  const [mode, setMode] = useState('dark');
+  const [mode, setMode] = useState('light');
   return (
     <Router>
       <div className={`container ${mode}`}>

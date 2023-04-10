@@ -51,12 +51,12 @@ const NotePage = ({ match, history }) => {
                 'Content-Type': 'application/json'
             }
         })
-        ('/home')
+        history.push('/home')
     }
 
     let handleSubmit = () => {
         console.log('NOTE:', note)
-        if (noteId !== 'new' && note.body == '') {
+        if (noteId !== 'new' && note.body === '') {
             deleteNote()
         } else if (noteId !== 'new') {
             updateNote()
