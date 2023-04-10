@@ -64,7 +64,7 @@ const ListItem = ({ note }) => {
         <div className="single-note-header">
                 <h3>{getTitle(note)}</h3>
                 <button onClick={togglePasswordWindow}>
-                    {isContentVisible ? 'Hide Content' : 'Show Content'}
+                    {isContentVisible ? 'Hide' : 'Show'}
                 </button>
         </div> 
         {isPasswordWindowOpen && (
