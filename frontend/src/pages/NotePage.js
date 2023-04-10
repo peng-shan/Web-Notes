@@ -51,7 +51,7 @@ const NotePage = ({ match, history }) => {
                 'Content-Type': 'application/json'
             }
         })
-        history.push('/home')
+        ('/home')
     }
 
     let handleSubmit = () => {
